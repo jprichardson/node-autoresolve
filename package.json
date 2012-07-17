@@ -1,0 +1,25 @@
+{
+    "name" : "autoresolve", 
+    "version" : "0.0.1",
+    "description" : "A simple module to auto resolve module paths.",
+    "homepage" : [
+        "https://github.com/jprichardson/node-autoresolve"
+    ],
+    "repository" : {
+        "type" : "git", 
+        "url" : "https://github.com/jprichardson/node-autoresolve"
+    },
+    "keywords" : ["require", "autoresolve", "path", "resolve"],
+    "author" : "JP Richardson <jprichardson@gmail.com>",
+    "licenses" : [ {
+        "type" : "MIT",
+        "url" : "http://github.com/jprichardson/node-autoresolve/raw/master/LICENSE"
+    }],
+     "devDepdencies":{
+        "mocha": "1.1.x"
+    },
+    "main" : "./lib/autoresolve",
+    "scripts": {
+        "test": "mocha test"
+    }
+}
