@@ -7,6 +7,7 @@ This autoresolves package locations for you. This prevents such ugliness as:
 var mypackage = require('../../../lib/models/customer');
 var another = require(path.join(__dirname, 'lib/models/customer'));
 var somepack = require(path.join(process.cwd(), 'lib/models/customer'));
+```
 
 Installation
 ------------
